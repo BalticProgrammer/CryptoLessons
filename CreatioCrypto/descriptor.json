@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "55d5e6cd-1520-e3fd-58ae-03e2828417b5",
+    "Name": "CreatioCrypto",
+    "ModifiedOnUtc": "\/Date(1748697046000)\/",
+    "Maintainer": "CreatioCrypto",
+    "DependsOn": [
+      {
+        "UId": "3f299622-2079-4a62-ba18-6d32c1d0d6af",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise_Marketing_ServiceEnt"
+      }
+    ]
+  }
+}

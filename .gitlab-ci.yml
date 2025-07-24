@@ -1,0 +1,209 @@
+stages:
+  - prepare-workspace-tv
+  - build-pkg-tv
+  - install-pkg-tv
+  - compile-configuration-tv
+  - finishing-tv
+  #- notify-tv
+  - prepare-workspace-dg
+  - build-pkg-dg
+  - install-pkg-dg
+  - compile-configuration-dg
+  - finishing-dg
+  #- notify-digital
+
+variables:
+  PKG_LIST: "RMS.Common"
+  PKG_NAME_TV: RMS.Common.TV.${CI_COMMIT_REF_SLUG}_${PKG_VER}.${CI_PIPELINE_ID}.zip
+  PKG_NAME_DG: RMS.Common.DG.${CI_COMMIT_REF_SLUG}_${PKG_VER}.${CI_PIPELINE_ID}.zip
+  WEB_APP_PATH: D:\soft\creatio
+  LOG_PATH: C:\soft\Gitlab.CICD\Logs
+  ENV: rms-common
+  URL_TV: https://testrppccreatioapp01.mediascope.net/
+  LOGIN_TV: Supervisor
+  PASS_TV: 4EhK7SoXnA
+  URL_DG: https://tescreatio.mediascope.net/
+  LOGIN_DG: Supervisor
+  PASS_DG: rabSpRAF1qkXcnacgc0F
+  GIT_FILES_TV: 'C:\soft\gitlab-runner\builds\bPnuXyeB\0\common\creatio\rms-common-creatio'
+  GIT_FILES_DG: 'C:\soft\GitLab-Runner\builds\N9zqdb8f\0\common\creatio\rms-common-creatio'
+  CLIO_PATH: 'C:\soft\clio_net\net8.0'
+
+prepare-workspace-tv:
+  stage: prepare-workspace-tv
+  dependencies: []
+  allow_failure: true
+  variables:
+    GIT_STRATEGY: none
+  interruptible: true
+  tags:
+    - creatio
+    - test
+  only:
+    - test
+    - merge_request
+  script:
+    - dotnet ${CLIO_PATH}\clio.dll reg-web-app -u ${URL_TV} -l ${LOGIN_TV} -p ${PASS_TV} -e ${ENV}
+
+build-pkg-tv:
+  stage: build-pkg-tv
+  interruptible: true
+  tags:
+    - creatio
+    - test
+  only:
+    - test
+    - merge_request
+  artifacts:
+    when: always
+    name: $PKG_NAME
+    paths:
+      - $PKG_NAME
+    expire_in: 14 days
+  script:
+    - echo $CI_COMMIT_TITLE
+    - dotnet ${CLIO_PATH}\clio.dll generate-pkg-zip ${GIT_FILES_TV} -p ${PKG_LIST} -d ${PKG_NAME_TV}
+
+install-pkg-tv:
+  stage: install-pkg-tv
+  interruptible: false
+  tags:
+    - creatio
+    - test
+  only:
+    - test
+    - merge_request
+  variables:
+    GIT_STRATEGY: none
+  artifacts:
+    when: always
+    name: log_InstallFromRepository
+    paths:
+      - $LOG_PATH\*Install*.txt
+    expire_in: 2 days
+  script:
+   - dotnet ${CLIO_PATH}\clio.dll push-pkg ${GIT_FILES_TV}\${PKG_NAME_TV} -e ${ENV} -r ${LOG_PATH}\install-pkg.common.tv-log.txt
+   
+compile-configuration-tv:
+  stage: compile-configuration-tv
+  interruptible: false
+  dependencies: []
+  tags:
+    - creatio
+    - test
+  only:
+    - test
+    - merge_request
+  variables:
+    GIT_STRATEGY: none
+  artifacts:
+    when: always
+    name: log_CompileConfiguration
+    paths:
+      - $LOG_PATH\*Compile*.txt
+    expire_in: 2 days
+  script:
+    - dotnet ${CLIO_PATH}\clio.dll compile-configuration -e ${ENV}
+ 
+finishing-tv:
+  stage: finishing-tv
+  dependencies: []
+  interruptible: true
+  tags:
+    - creatio
+    - test
+  only:
+    - test
+    - merge_request
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - dotnet ${CLIO_PATH}\clio.dll flushdb -e ${ENV}
+    - dotnet ${CLIO_PATH}\clio.dll restart -e ${ENV}
+    
+prepare-workspace-dg:
+  stage: prepare-workspace-dg
+  dependencies: []
+  allow_failure: true
+  variables:
+    GIT_STRATEGY: none
+  interruptible: true
+  tags:
+    - rms digital test
+  only:
+    - test
+    - merge_request
+  script:
+    - dotnet ${CLIO_PATH}\clio.dll reg-web-app -u ${URL_DG} -l ${LOGIN_DG} -p ${PASS_DG} -e ${ENV}
+
+build-pkg-dg:
+  stage: build-pkg-dg
+  interruptible: true
+  tags:
+    - rms digital test
+  only:
+    - test
+    - merge_request
+  artifacts:
+    when: always
+    name: $PKG_NAME
+    paths:
+      - $PKG_NAME
+    expire_in: 14 days
+  script:
+    - echo $CI_COMMIT_TITLE
+    - dotnet ${CLIO_PATH}\clio.dll generate-pkg-zip ${GIT_FILES_DG} -p ${PKG_LIST} -d ${PKG_NAME_DG}
+    
+install-pkg-dg:
+  stage: install-pkg-dg
+  interruptible: false
+  tags:
+    - rms digital test
+  only:
+    - test
+    - merge_request
+  variables:
+    GIT_STRATEGY: none
+  artifacts:
+    when: always
+    name: log_InstallFromRepository
+    paths:
+      - $LOG_PATH\*Install*.txt
+    expire_in: 2 days
+  script:
+   - dotnet ${CLIO_PATH}\clio.dll push-pkg ${GIT_FILES_DG}\${PKG_NAME_DG} -e ${ENV} -r ${LOG_PATH}\install-pkg.common.dg-log.txt
+   
+compile-configuration-dg:
+  stage: compile-configuration-dg
+  interruptible: false
+  dependencies: []
+  tags:
+    - rms digital test
+  only:
+    - test
+    - merge_request
+  variables:
+    GIT_STRATEGY: none
+  artifacts:
+    when: always
+    name: log_CompileConfiguration
+    paths:
+      - $LOG_PATH\*Compile*.txt
+    expire_in: 2 days
+  script:
+    - dotnet ${CLIO_PATH}\clio.dll compile-configuration -e ${ENV}
+ 
+finishing-dg:
+  stage: finishing-dg
+  dependencies: []
+  interruptible: true
+  tags:
+    - rms digital test
+  only:
+    - test
+    - merge_request
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - dotnet ${CLIO_PATH}\clio.dll flushdb -e ${ENV}
+    - dotnet ${CLIO_PATH}\clio.dll restart -e ${ENV}
