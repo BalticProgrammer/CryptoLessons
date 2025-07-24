@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "6b2396dd-1cb0-56a0-63d2-45cb9bd3ee06",
+    "Name": "Crypto",
+    "ModifiedOnUtc": "\/Date(1748102245000)\/",
+    "Maintainer": "Crypto",
+    "DependsOn": [
+      {
+        "UId": "3f299622-2079-4a62-ba18-6d32c1d0d6af",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise_Marketing_ServiceEnt"
+      }
+    ]
+  }
+}
