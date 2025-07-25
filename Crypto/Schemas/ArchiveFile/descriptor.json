@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "815002ca-841e-4195-bbde-68588c781940",
+    "Name": "ArchiveFile",
+    "ModifiedOnUtc": "\/Date(1753183417000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Архив"
+  }
+}

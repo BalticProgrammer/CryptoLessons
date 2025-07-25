@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "052de111-82ee-4790-adea-093a84c0426d",
+    "Name": "ArchiveInTag",
+    "ModifiedOnUtc": "\/Date(1753183450000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег в записи раздела Архив"
+  }
+}

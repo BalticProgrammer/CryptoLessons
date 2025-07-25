@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c481378a-f941-424b-9e96-ef62ee96b29e",
+    "Name": "ArchiveInFolder",
+    "ModifiedOnUtc": "\/Date(1753183435000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Архив в группе"
+  }
+}

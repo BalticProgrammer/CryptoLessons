@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "affde7ed-6ae3-43ca-a8b7-8abcd3b76ca2",
+    "Name": "Archive67507dcdSection",
+    "ModifiedOnUtc": "\/Date(1753183389000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Архив\""
+  }
+}

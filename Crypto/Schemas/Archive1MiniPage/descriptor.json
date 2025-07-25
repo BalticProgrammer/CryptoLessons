@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "e8771933-cf3d-462c-98b8-675616d6ec33",
+    "Name": "Archive1MiniPage",
+    "ModifiedOnUtc": "\/Date(1753183381000)\/",
+    "Parent": {
+      "UId": "8e06a577-08e4-424e-bd89-798a34e1b928",
+      "Name": "BaseMiniPage"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Archive1MiniPage"
+  }
+}
