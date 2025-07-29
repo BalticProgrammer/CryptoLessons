@@ -1,35 +1,22 @@
-define("ContactPageV2", [], function() {
+define("ContactPageV2", ["ConstansJs"], function(ConstansJs) {
 	return {
 		entitySchemaName: "Contact",
-		attributes: {},
+		attributes: {
+			"IsSkypeVisible": {
+				"dataValueType": Terrasoft.DataValueType.BOOLEAN,
+				"value": false,
+				"dependencies": [
+                    {
+                        "columns": ["Age"],
+                        "methodName": "onAgeChanged"
+                    }
+                ]
+			},
+		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{
-			"Skype": {
-				"8fd53008-702d-43ea-ada4-dba45057b7da": {
-					"uId": "8fd53008-702d-43ea-ada4-dba45057b7da",
-					"enabled": true,
-					"removed": false,
-					"ruleType": 0,
-					"property": 0,
-					"logical": 0,
-					"conditions": [
-						{
-							"comparisonType": 7,
-							"leftExpression": {
-								"type": 1,
-								"attribute": "Age"
-							},
-							"rightExpression": {
-								"type": 0,
-								"value": 18,
-								"dataValueType": 4
-							}
-						}
-					]
-				}
-			},
-			"Address": {
+		"Address": {
 				"dc2212de-4121-4733-9b48-a3731028a5ac": {
 					"uId": "dc2212de-4121-4733-9b48-a3731028a5ac",
 					"enabled": true,
@@ -60,7 +47,19 @@ define("ContactPageV2", [], function() {
 				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+			onEntityInitialized: function() {
+				this.callParent(arguments);
+				this.set("IsSkypeVisible", this.$Age > 18);
+				if(this.$City.value == ConstansJs.City.Detroit){
+					this.$IsStudyAtSchool = false;
+				}
+			},
+
+			onAgeChanged: function() {
+				this.$IsSkypeVisible = this.$Age > 18;
+			},
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -106,6 +105,7 @@ define("ContactPageV2", [], function() {
 						"row": 3,
 						"layoutName": "ContactGeneralInfoBlock"
 					},
+					"visible": {"bindTo": "IsSkypeVisible"},
 					"bindTo": "Skype"
 				},
 				"parentName": "ContactGeneralInfoBlock",
@@ -197,6 +197,25 @@ define("ContactPageV2", [], function() {
 				"parentName": "ContactGeneralInfoBlock",
 				"propertyName": "items",
 				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "HomePhone",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 7,
+						"layoutName": "ContactGeneralInfoBlock"
+					},
+					"enabled": false,
+					"visible": true,
+					"bindTo": "HomePhone"
+				},
+				"parentName": "ContactGeneralInfoBlock",
+				"propertyName": "items",
+				"index": 13
 			},
 			{
 				"operation": "merge",
