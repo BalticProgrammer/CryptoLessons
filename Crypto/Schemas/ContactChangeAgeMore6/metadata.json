@@ -649,7 +649,7 @@
           "DZ8": true,
           "DZ11": true,
           "DZ12": "{\"$type\":\"System.Collections.ObjectModel.Collection`1[[System.String, mscorlib]], mscorlib\",\"$values\":[\"bcdc7a32-4332-4caf-858d-0078b56856fe\"]}",
-          "DZ13": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"474462d2-5e2d-4678-acdc-4d696329819e\\\":{\\\"className\\\":\\\"Terrasoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":7,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"474462d2-5e2d-4678-acdc-4d696329819e\\\",\\\"dataValueType\\\":4,\\\"leftExpressionCaption\\\":\\\"Возраст\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":4,\\\"value\\\":6}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"474462d2-5e2d-4678-acdc-4d696329819e\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":7,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":4,\\\"value\\\":6}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\"}\"}"
+          "DZ13": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"474462d2-5e2d-4678-acdc-4d696329819e\\\":{\\\"className\\\":\\\"Terrasoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":7,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"474462d2-5e2d-4678-acdc-4d696329819e\\\",\\\"dataValueType\\\":4,\\\"leftExpressionCaption\\\":\\\"Возраст\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":4,\\\"value\\\":6}}},\\\"5291fcca-4e2f-47d6-8e8c-524165886cc0\\\":{\\\"className\\\":\\\"Terrasoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":5,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"5291fcca-4e2f-47d6-8e8c-524165886cc0\\\",\\\"dataValueType\\\":4,\\\"leftExpressionCaption\\\":\\\"Возраст\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":4,\\\"value\\\":50}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"474462d2-5e2d-4678-acdc-4d696329819e\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":7,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":4,\\\"value\\\":6}}},\\\"5291fcca-4e2f-47d6-8e8c-524165886cc0\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":5,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":4,\\\"value\\\":50}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\"}\"}"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaUserTask",
@@ -1226,15 +1226,88 @@
           "A4": "bd828e24-aa1e-4144-92f4-418aee7560e0",
           "A5": "6b2396dd-1cb0-56a0-63d2-45cb9bd3ee06",
           "IL2": "7ce070bf-2f0d-400d-bf4e-10653376f7d5",
-          "BL3": "408;333",
+          "BL3": "467;333",
           "BL7": "0e490dda-e140-4441-b600-6f5c64d024df",
           "BL8": "bd828e24-aa1e-4144-92f4-418aee7560e0",
           "BN2": "69;55",
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "// Чтение из базы\r\nvar education = new Education(UserConnection);\r\neducation.FetchFromDB(\"Name\", \"Среднее дополнительное\");\r\n\r\n// Вставка в Базу\r\nvar educationInsert = new Education(UserConnection);\r\neducationInsert.SetDefColumnValues();\r\neducationInsert.Name = \"Высшее с использование кода\";\r\neducationInsert.ContactId = ConstantCS.Contact.Kirill;\r\neducationInsert.Save();\r\n\r\n// Чтение из базы и удаление, вызывается событийный слой на Удаление записи\r\nvar educationToDelete = new Education(UserConnection);\r\neducation.FetchFromDB(\"Name\", \"Среднее дополнительное 1\");\r\neducationToDelete.Delete();\r\n\r\n// Обновление Name = Среднее дополнительное 4, вызывается событий слой на Изменение записи\r\neducation.Name = \"Среднее дополнительное 4\";\r\neducation.Save();\r\n\r\nreturn true;",
+          "CH1": "var helper = new ManipulationWithDBHelper(UserConnection);\r\nhelper.ManipulationWithDBUseEntity();\r\n\r\nreturn true;",
           "CH2": true
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaStartSignalEvent",
+          "UId": "12c29ca5-3ad0-4ffd-afed-595ef94f5dd0",
+          "A2": "StartSignal3",
+          "A3": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A4": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A5": "6b2396dd-1cb0-56a0-63d2-45cb9bd3ee06",
+          "IL2": "7ce070bf-2f0d-400d-bf4e-10653376f7d5",
+          "IL3": true,
+          "BL3": "201;490",
+          "BL7": "1129e72f-0e8c-445a-b2ea-463517e86395",
+          "BL8": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "BN2": "31;31",
+          "BO3": true,
+          "FC1": [
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "f8e2a502-c509-4517-bce5-e2cf9b36808f",
+              "A2": "RecordId",
+              "A3": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+              "A4": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+              "IL2": "12c29ca5-3ad0-4ffd-afed-595ef94f5dd0",
+              "L1": "23018567-a13c-4320-8687-fd6f9e3699bd",
+              "L8": {
+                "GS1": 1,
+                "GS2": ""
+              }
+            }
+          ],
+          "FC2": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+          "ED1": false,
+          "DZ1": "null",
+          "DZ2": false,
+          "DZ3": true,
+          "DZ5": 2,
+          "DZ8": true,
+          "DZ11": true,
+          "DZ12": "{\"$type\":\"System.Collections.ObjectModel.Collection`1[[System.String, mscorlib]], mscorlib\",\"$values\":[\"bcdc7a32-4332-4caf-858d-0078b56856fe\"]}",
+          "DZ13": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"e657cad7-3e75-46a9-a1cf-21cbac422117\\\":{\\\"className\\\":\\\"Terrasoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":7,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"e657cad7-3e75-46a9-a1cf-21cbac422117\\\",\\\"dataValueType\\\":4,\\\"leftExpressionCaption\\\":\\\"Возраст\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":4,\\\"value\\\":50}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"e657cad7-3e75-46a9-a1cf-21cbac422117\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":7,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Age\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":4,\\\"value\\\":50}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\"}\"}"
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaScriptTask",
+          "UId": "9e7eb9b2-92bf-446f-96d8-50b567c9a6e7",
+          "A2": "ScriptTask2",
+          "A3": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A4": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A5": "6b2396dd-1cb0-56a0-63d2-45cb9bd3ee06",
+          "IL2": "7ce070bf-2f0d-400d-bf4e-10653376f7d5",
+          "BL3": "467;478",
+          "BL7": "0e490dda-e140-4441-b600-6f5c64d024df",
+          "BL8": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [],
+          "CL2": "FFFFFFFF",
+          "CH1": "var helper = new ManipulationWithDBHelper(UserConnection);\r\nhelper.ManipulationWithDBUseClasses();\r\n\r\nreturn true;",
+          "CH2": true
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
+          "UId": "a060ffa1-c4e9-4899-aa8a-95d471f545d0",
+          "A2": "TerminateEvent2",
+          "A3": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A4": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A5": "6b2396dd-1cb0-56a0-63d2-45cb9bd3ee06",
+          "IL2": "7ce070bf-2f0d-400d-bf4e-10653376f7d5",
+          "BL3": "880;490",
+          "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
+          "BL8": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "BN2": "31;31",
+          "BO3": true,
+          "FC1": []
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -1336,7 +1409,7 @@
           "CI5": "FF939598",
           "CI6": 1,
           "CI11": "232;361",
-          "CI12": "408;361"
+          "CI12": "467;361"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -1354,11 +1427,45 @@
           "CI6": 1,
           "CI7": "1;0",
           "CI8": "0;-1",
-          "CI11": "477;361",
+          "CI11": "536;361",
           "CI12": "896;215",
           "CI10": {
             "Item0": "896;361"
           }
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "7ef43fa0-583e-40bc-9f92-2374e4e417a4",
+          "A2": "SequenceFlow5",
+          "A3": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A4": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A5": "6b2396dd-1cb0-56a0-63d2-45cb9bd3ee06",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "CI1": "12c29ca5-3ad0-4ffd-afed-595ef94f5dd0",
+          "CI2": "9e7eb9b2-92bf-446f-96d8-50b567c9a6e7",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI11": "232;506",
+          "CI12": "467;506"
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "791160c5-984c-4411-8e3c-a64b6eaef77a",
+          "A2": "SequenceFlow10",
+          "A3": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A4": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "A5": "6b2396dd-1cb0-56a0-63d2-45cb9bd3ee06",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+          "CI1": "9e7eb9b2-92bf-446f-96d8-50b567c9a6e7",
+          "CI2": "a060ffa1-c4e9-4899-aa8a-95d471f545d0",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI11": "536;506",
+          "CI12": "880;506"
         }
       ],
       "BK9": [],
