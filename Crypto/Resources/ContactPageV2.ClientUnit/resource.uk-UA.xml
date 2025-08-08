@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Назва" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Зміст" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Канали комунікації" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Повідомлення користувачу 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Ступінь наповненості даними профіля. Натисніть на шкалу, щоб подивитись, яких даних не вистачає у профілі." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Повнота профілю" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Підтверджено" />

@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Naam" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Waarde" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="CommunicatieKANALEN" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Bericht aan gebruiker 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Percentage gereed van profiel. Klik op de indicator om te bekijken welke gegevens u nodig hebt om het profiel te voltooien." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profiel compleet" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Bevestigd" />

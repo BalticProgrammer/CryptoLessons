@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="שם" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="ערך" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="ערוצי תקשורת" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="הודעה למשתמש 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="אחוז השלמת הפרופיל. לחץ על המחוון כדי להציג את הנתונים הדרושים להשלמת הפרופיל." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="פרופיל הושלם" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="מאושר" />

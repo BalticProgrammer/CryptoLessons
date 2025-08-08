@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Název" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Hodnota" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Způsoby komunikace" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Message to user 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Procento vyplnění profilu. Klikněte na ukazatel abyste se dozvěděli, jaká data Vám zatím chybí." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profil vyplněn" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Potvrzen" />

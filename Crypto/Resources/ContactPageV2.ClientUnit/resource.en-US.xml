@@ -19,6 +19,7 @@
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profile complete" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Confirmed" />
 			<Item Name="LocalizableStrings.ContactPageServiceTab.Value" Value="Maintenance" />
+			<Item Name="LocalizableStrings.EducationDetailDetailCaptionOnPage.Value" Value="Образование" />
 			<Item Name="LocalizableStrings.EngagementTabTabCaption.Value" Value="Engagement" />
 			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="New data found" />
 			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Feed" />

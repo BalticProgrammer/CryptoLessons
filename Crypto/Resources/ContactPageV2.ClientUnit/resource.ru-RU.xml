@@ -18,6 +18,7 @@
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Полнота профиля" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Подтвержден" />
 			<Item Name="LocalizableStrings.ContactPageServiceTab.Value" Value="Обслуживание" />
+			<Item Name="LocalizableStrings.EducationDetailDetailCaptionOnPage.Value" Value="Образование" />
 			<Item Name="LocalizableStrings.EngagementTabTabCaption.Value" Value="Привлечение" />
 			<Item Name="LocalizableStrings.EnrichCloudCaption.Value" Value="Найдены данные" />
 			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Лента" />

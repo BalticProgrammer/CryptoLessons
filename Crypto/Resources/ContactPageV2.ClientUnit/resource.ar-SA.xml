@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="الاسم" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="قيمة" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="قنوات التواصل" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="رسالة للمستخدم1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="نسبة اكتمال ملف التعريف. انقر فوق المؤشر لمعاينة البيانات التي تحتاج لإكمال ملف التعريف." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="ملف تعريف كامل" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="مؤكد" />

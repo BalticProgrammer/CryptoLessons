@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "a70e515a-6edd-481e-a783-cf8ac5a55f1c",
+    "Name": "EducationPage",
+    "ModifiedOnUtc": "\/Date(1753884896000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Образование"
+  }
+}

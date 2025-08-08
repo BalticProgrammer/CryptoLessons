@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="ชื่อ" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="ค่า" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="ช่องทางการติดต่อสื่อสาร" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="ข้อความถึงผู้ใช้ 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="ร้อยละของความสมบูรณ์ของโปร์ไฟล์ คลิกที่ตัวชี้เพื่อดูว่ามีข้อมูลไหนบ้างที่คุณต้องทำโปรไฟล์ให้สมบูรณ์." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="โปรไฟล์เสร็จสมบูรณ์" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="ยืนยันแล้ว" />

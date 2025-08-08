@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Namn" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Värde" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Kommunkationskanaler" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Meddelande till användare 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Hur komplett profilen är i procent. Klicka på indikatorn för att visa vilka data du behöver för att göra profilen komplett." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profil komplett" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Bekräftad" />

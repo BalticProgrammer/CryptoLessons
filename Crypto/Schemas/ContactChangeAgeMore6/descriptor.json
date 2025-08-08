@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "bd828e24-aa1e-4144-92f4-418aee7560e0",
+    "Name": "ContactChangeAgeMore6",
+    "ModifiedOnUtc": "\/Date(1754492854000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Контакт поменял возраст > 6 "
+  }
+}
