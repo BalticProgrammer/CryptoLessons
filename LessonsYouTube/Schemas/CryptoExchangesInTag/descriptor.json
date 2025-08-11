@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c1576a2e-8408-4121-89d1-937945619ed9",
+    "Name": "CryptoExchangesInTag",
+    "ModifiedOnUtc": "\/Date(1753805678000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег в записи раздела Крипто биржи"
+  }
+}

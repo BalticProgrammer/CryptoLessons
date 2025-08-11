@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cf54d289-00d8-4a8a-91ea-a0972b08ead3",
+    "Name": "TradingBotsTag",
+    "ModifiedOnUtc": "\/Date(1753807836000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Крипто боты"
+  }
+}

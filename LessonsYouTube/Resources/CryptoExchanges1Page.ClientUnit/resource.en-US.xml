@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;Крипто биржи&quot;" />
+			<Item Name="LocalizableStrings.BaseCryptoExchangeInformationTabCaption.Value" Value="Базовая информация" />
+			<Item Name="LocalizableStrings.BotsDetailCaptionOnPage.Value" Value="Боты" />
+			<Item Name="LocalizableStrings.CryptoExchangeBotsTabCaption.Value" Value="Боты" />
+		</Items>
+	</Group>
+</Resources>

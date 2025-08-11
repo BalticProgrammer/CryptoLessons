@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "19ff7509-c5d6-4963-8409-3e31a33cc2f1",
+    "Name": "CryptoExchanges1Page",
+    "ModifiedOnUtc": "\/Date(1753808725000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Крипто биржи\""
+  }
+}

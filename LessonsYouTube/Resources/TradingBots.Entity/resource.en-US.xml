@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Object" />
+			<Item Name="Columns.BotCryptoExchange.Caption" Value="Крипто биржа" />
+			<Item Name="Columns.IsActive.Caption" Value="В работе" />
+			<Item Name="Columns.LastSwitchWorkTime.Caption" Value="Время последней смены статуса &quot;В работе&quot;" />
+			<Item Name="Columns.Notes.Caption" Value="Заметки" />
+			<Item Name="Description" Value="Боты для автоматической торговли криптовалютой с помощью алгоритмов " />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

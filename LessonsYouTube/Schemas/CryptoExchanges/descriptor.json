@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "357e28b6-3410-4737-b565-4775519ae2fc",
+    "Name": "CryptoExchanges",
+    "ModifiedOnUtc": "\/Date(1753806457000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Крипто биржи"
+  }
+}

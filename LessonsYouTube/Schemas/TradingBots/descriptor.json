@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "6c6ca39b-b5f7-41cd-947d-b6861c300fda",
+    "Name": "TradingBots",
+    "ModifiedOnUtc": "\/Date(1754657758000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Крипто боты"
+  }
+}

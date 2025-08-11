@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "a61ce287-f8d2-471d-8d14-414da4ab9d34",
+    "Name": "TradingBots1Page",
+    "ModifiedOnUtc": "\/Date(1754658129000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Крипто боты\""
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "6c4490c6-cfbd-4642-a8fb-e0ceef803f4b",
+    "Name": "BotsSchemaDetail",
+    "ModifiedOnUtc": "\/Date(1753960639000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Боты\""
+  }
+}

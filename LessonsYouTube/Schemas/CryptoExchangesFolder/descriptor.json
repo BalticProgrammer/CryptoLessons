@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "767aef98-d807-4147-b956-58e7e2e4bde4",
+    "Name": "CryptoExchangesFolder",
+    "ModifiedOnUtc": "\/Date(1753805664000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Крипто биржи"
+  }
+}

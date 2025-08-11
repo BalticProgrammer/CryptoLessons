@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "bde3e760-5d92-49b8-94f6-b630bbc72057",
+    "Name": "TradingBotsFile",
+    "ModifiedOnUtc": "\/Date(1753807822000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Крипто боты"
+  }
+}

@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/LessonsYouTube/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/LessonsYouTube/Data/**" />
+		<Compile Remove="$(PkgPath)/LessonsYouTube/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/LessonsYouTube/Schemas\**" />
+		<Compile Remove="$(PkgPath)/LessonsYouTube/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsYouTube/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsYouTube/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsYouTube/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsYouTube/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsYouTube/Resources/**" />
+		<None Remove="$(PkgPath)/LessonsYouTube/Assemblies/**" />
+		<None Remove="$(PkgPath)/LessonsYouTube/Data/**" />
+		<None Remove="$(PkgPath)/LessonsYouTube/SqlScripts/**" />
+		<None Remove="$(PkgPath)/LessonsYouTube/Schemas/**" />
+		<None Remove="$(PkgPath)/LessonsYouTube/Resources/**" />
+  </ItemGroup>
+</Project>

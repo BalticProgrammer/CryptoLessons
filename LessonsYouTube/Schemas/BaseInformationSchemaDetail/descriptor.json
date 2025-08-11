@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "f4f5dcd0-cdeb-4d09-9b7a-7ec6e27dfe08",
+    "Name": "BaseInformationSchemaDetail",
+    "ModifiedOnUtc": "\/Date(1753960546000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Основная информация\""
+  }
+}

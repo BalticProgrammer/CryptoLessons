@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "704ab531-35c5-469b-ad25-8deb68cc3465",
+    "Name": "TradingPairsCrypto",
+    "ModifiedOnUtc": "\/Date(1753807531000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Торговые пары(крипто)"
+  }
+}

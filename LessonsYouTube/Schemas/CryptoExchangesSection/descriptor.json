@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "f1245ba9-4cd1-4a75-9d1d-d921fcb4db21",
+    "Name": "CryptoExchangesSection",
+    "ModifiedOnUtc": "\/Date(1754656133000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Крипто биржи\""
+  }
+}
