@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Nombre" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Valor" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Canales de comunicación" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Mensaje al usuario 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Porcentaje de finalización del perfil. Haga clic en el indicador para ver qué datos necesita para completar el perfil." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Perfil completo" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Confirmado" />

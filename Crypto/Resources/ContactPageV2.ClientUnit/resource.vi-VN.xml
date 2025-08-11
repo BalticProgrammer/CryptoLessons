@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Tên" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Giá trị" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Các kênh liên lạc" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Tin nhắn đến người dùng 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Phần trăm mức hoàn thành hồ sơ. Click vào dấu chỉ dẫn để xem dữ liệu nào mà bạn cần để hoàn thành hồ sơ." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Hoàn thành hồ sơ" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Xác nhận" />

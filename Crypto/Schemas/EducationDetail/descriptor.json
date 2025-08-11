@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "bbb4f192-1092-4cbf-95a5-e62d94c1dbd1",
+    "Name": "EducationDetail",
+    "ModifiedOnUtc": "\/Date(1753885120000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Образование"
+  }
+}

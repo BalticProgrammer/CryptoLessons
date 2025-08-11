@@ -12,7 +12,6 @@
 			<Item Name="LocalizableStrings.ColumnNameNameCaption.Value" Value="Nume" />
 			<Item Name="LocalizableStrings.ColumnNameValueCaption.Value" Value="Valoare" />
 			<Item Name="LocalizableStrings.CommunicationChannelsTabCaption.Value" Value="Canale de comunicare" />
-			<Item Name="LocalizableStrings.CompletenessHint.Caption" Value="Message to user 1" />
 			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Procent de finalizare a profilului. Accesati indicatorul pentru a vizualiza ce date mai sunt necesare pentru a finaliza profilul." />
 			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profil finalizat" />
 			<Item Name="LocalizableStrings.ConfirmedCaption.Value" Value="Confirmat" />

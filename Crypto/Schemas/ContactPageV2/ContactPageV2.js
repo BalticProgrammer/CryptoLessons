@@ -14,7 +14,16 @@ define("ContactPageV2", ["ConstansJs"], function(ConstansJs) {
 			},
 		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
-		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+		details: /**SCHEMA_DETAILS*/{
+			"EducationDetail": {
+				"schemaName": "EducationDetail",
+				"entitySchemaName": "Education",
+				"filter": {
+					"detailColumn": "Contact",
+					"masterColumn": "Id"
+				}
+			}
+		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{
 		"Address": {
 				"dc2212de-4121-4733-9b48-a3731028a5ac": {
@@ -105,7 +114,9 @@ define("ContactPageV2", ["ConstansJs"], function(ConstansJs) {
 						"row": 3,
 						"layoutName": "ContactGeneralInfoBlock"
 					},
-					"visible": {"bindTo": "IsSkypeVisible"},
+					"visible": {
+						"bindTo": "IsSkypeVisible"
+					},
 					"bindTo": "Skype"
 				},
 				"parentName": "ContactGeneralInfoBlock",
@@ -216,6 +227,17 @@ define("ContactPageV2", ["ConstansJs"], function(ConstansJs) {
 				"parentName": "ContactGeneralInfoBlock",
 				"propertyName": "items",
 				"index": 13
+			},
+			{
+				"operation": "insert",
+				"name": "EducationDetail",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "ContactPageServiceTab",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "merge",
