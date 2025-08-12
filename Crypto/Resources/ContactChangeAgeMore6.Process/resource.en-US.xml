@@ -51,11 +51,15 @@
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
 			<Item Name="BaseElements.ScriptTask1.Caption" Value="Изменить образование" />
+			<Item Name="BaseElements.ScriptTask2.Caption" Value="Изменить образование" />
 			<Item Name="BaseElements.StartSignal1.Caption" Value="Контакт поменял возраст" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
 			<Item Name="BaseElements.StartSignal2.Caption" Value="Контакт поменял возраст &lt;= 6" />
 			<Item Name="BaseElements.StartSignal2.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
+			<Item Name="BaseElements.StartSignal3.Caption" Value="Контакт поменял возраст &gt; 50" />
 			<Item Name="BaseElements.StartSignal3.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
+			<Item Name="BaseElements.StartSignal4.Caption" Value="Контакт поменял возраст &gt; 70" />
+			<Item Name="BaseElements.StartSignal4.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
 			<Item Name="Caption" Value="Контакт поменял возраст &gt; 6 " />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
