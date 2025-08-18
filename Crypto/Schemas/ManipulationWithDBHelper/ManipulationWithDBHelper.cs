@@ -29,7 +29,7 @@ namespace Terrasoft.Configuration
             var educationInsert = new Education(_userConnection);
             educationInsert.SetDefColumnValues();
             educationInsert.Name = "Высшее с использование кода";
-            educationInsert.ContactId = ConstantCS.Contact.Kirill;
+            educationInsert.ContactId = ConstantCS.Contact.Maks;
             educationInsert.Save();
 
             // Чтение из базы и удаление, вызывается событийный слой на Удаление записи
@@ -60,7 +60,7 @@ namespace Terrasoft.Configuration
             var insert = new Insert(_userConnection)
                 .Into("Education")
                 .Set("Name", Column.Const("Высшее с использование кода класса Insert"))
-                .Set("ContactId", Column.Const(ConstantCS.Contact.Kirill));
+                .Set("ContactId", Column.Const(ConstantCS.Contact.Maks));
             insert.Execute();
 
             // Удаление, не вызывается событийный слой на Удаление записи

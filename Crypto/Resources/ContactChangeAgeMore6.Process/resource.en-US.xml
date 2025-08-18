@@ -66,7 +66,7 @@
 			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
 			<Item Name="Parameters.ContactId.Caption" Value="ContactId" />
-			<Item Name="Parameters.ContactId.DisplayValue" Value="[#Справочник.Контакт.Kirill.04283e61-3703-4921-938b-8b54bfcb4fd6#]" />
+			<Item Name="Parameters.ContactId.DisplayValue" Value="[#Lookup.Contact.Maks.85d14a2e-009a-4342-8c5f-67abf54270fc#]" />
 		</Items>
 	</Group>
 </Resources>

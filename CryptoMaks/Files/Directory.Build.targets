@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CryptoMaks/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CryptoMaks/Data/**" />
+		<Compile Remove="$(PkgPath)/CryptoMaks/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CryptoMaks/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CryptoMaks/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CryptoMaks/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CryptoMaks/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CryptoMaks/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CryptoMaks/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CryptoMaks/Resources/**" />
+		<None Remove="$(PkgPath)/CryptoMaks/Assemblies/**" />
+		<None Remove="$(PkgPath)/CryptoMaks/Data/**" />
+		<None Remove="$(PkgPath)/CryptoMaks/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CryptoMaks/Schemas/**" />
+		<None Remove="$(PkgPath)/CryptoMaks/Resources/**" />
+  </ItemGroup>
+</Project>

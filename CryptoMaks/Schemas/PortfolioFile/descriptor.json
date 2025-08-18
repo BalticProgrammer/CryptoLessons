@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "7a5ee39a-92a5-4dd3-94af-898c3eca937b",
+    "Name": "PortfolioFile",
+    "ModifiedOnUtc": "\/Date(1755525757000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Портфель attachment"
+  }
+}

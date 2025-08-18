@@ -1,0 +1,26 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8f4c2ff3-d764-4f4c-b92c-5bc32d68e691"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "2fc8e88a-6f51-4754-b8dc-6ef7dafab483",
+          "DisplayValue": "Инвестиции"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "5c3bdb42-7808-4d3a-b38f-cb7f960fe956",
+          "DisplayValue": "Портфель"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 35
+        }
+      ]
+    }
+  ]
+}

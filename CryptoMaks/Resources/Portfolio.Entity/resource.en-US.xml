@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Портфель" />
+			<Item Name="Columns.ActualCount.Caption" Value="Актуальное количество" />
+			<Item Name="Columns.AverageBuyPrice.Caption" Value="Средняя покупки USDT" />
+			<Item Name="Columns.AverageFixationPrice.Caption" Value="Средняя покупки с фиксациями" />
+			<Item Name="Columns.AveragePurchasePrice.Caption" Value="Средняя (П/П) USDT" />
+			<Item Name="Columns.AverageSellPrice.Caption" Value="Средняя продажи USDT" />
+			<Item Name="Columns.Blogger.Caption" Value="Блогер" />
+			<Item Name="Columns.BuyVolume.Caption" Value="Объём покупки(USDT)" />
+			<Item Name="Columns.Code.Caption" Value="Код" />
+			<Item Name="Columns.CurrentRate.Caption" Value="Текущий курс (USDT)" />
+			<Item Name="Columns.Ecosystem.Caption" Value="Экосистема" />
+			<Item Name="Columns.InvestedPercent.Caption" Value="Вложенное %" />
+			<Item Name="Columns.InvestedRub.Caption" Value="Вложено RUB" />
+			<Item Name="Columns.InvestedUsdt.Caption" Value="Вложено USDT" />
+			<Item Name="Columns.Name.Caption" Value="Название" />
+			<Item Name="Columns.Notes.Caption" Value="Заметки" />
+			<Item Name="Columns.PercentageDifference.Caption" Value="Разница %" />
+			<Item Name="Columns.PlaceInPortfolio.Caption" Value="Место в портфеле" />
+			<Item Name="Columns.PlaceInRanking.Caption" Value="Место в рейтинге" />
+			<Item Name="Columns.Platform.Caption" Value="Платформа" />
+			<Item Name="Columns.PortfolioType.Caption" Value="Тип портфеля" />
+			<Item Name="Columns.PossibleX.Caption" Value="Возможные иксы" />
+			<Item Name="Columns.Priority.Caption" Value="Приоритет" />
+			<Item Name="Columns.SellVolume.Caption" Value="Объём продажи(USDT)" />
+			<Item Name="Columns.Symbol.Caption" Value="Символ" />
+			<Item Name="Columns.TotalCountBuy.Caption" Value="Объем покупки" />
+			<Item Name="Columns.TotalCountSell.Caption" Value="Объём продажи" />
+			<Item Name="Columns.TypeOfCryptocurrency.Caption" Value="Тип" />
+		</Items>
+	</Group>
+</Resources>

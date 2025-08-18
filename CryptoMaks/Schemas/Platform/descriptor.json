@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5035ee93-292f-404e-be64-d3a789dcdbe6",
+    "Name": "Platform",
+    "ModifiedOnUtc": "\/Date(1755524269000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Платформа"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ebd82f7c-a1d1-45f2-a705-b744e28750fa",
+    "Name": "PortfolioInFolder",
+    "ModifiedOnUtc": "\/Date(1755525770000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Портфель in Folder"
+  }
+}

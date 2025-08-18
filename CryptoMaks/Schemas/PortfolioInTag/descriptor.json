@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "816361ca-eb8d-4136-a927-fd9a99ab7ea6",
+    "Name": "PortfolioInTag",
+    "ModifiedOnUtc": "\/Date(1755525782000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Портфель section record tag"
+  }
+}

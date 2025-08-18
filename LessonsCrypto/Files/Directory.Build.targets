@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/LessonsCrypto/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/LessonsCrypto/Data/**" />
+		<Compile Remove="$(PkgPath)/LessonsCrypto/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/LessonsCrypto/Schemas\**" />
+		<Compile Remove="$(PkgPath)/LessonsCrypto/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsCrypto/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsCrypto/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsCrypto/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsCrypto/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/LessonsCrypto/Resources/**" />
+		<None Remove="$(PkgPath)/LessonsCrypto/Assemblies/**" />
+		<None Remove="$(PkgPath)/LessonsCrypto/Data/**" />
+		<None Remove="$(PkgPath)/LessonsCrypto/SqlScripts/**" />
+		<None Remove="$(PkgPath)/LessonsCrypto/Schemas/**" />
+		<None Remove="$(PkgPath)/LessonsCrypto/Resources/**" />
+  </ItemGroup>
+</Project>

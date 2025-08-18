@@ -1,0 +1,285 @@
+= MetaData.Schema.UId "a9a35fca-6aa5-4009-8e7e-0323c39e138d"
+= MetaData.Schema.A2 "Portfolio"
+= MetaData.Schema.A5 "070ec454-1e34-44d7-abf4-442e6a774a02"
+= MetaData.Schema.B6 "9acdfcff-2da9-83f1-b954-255224b0498a"
+= MetaData.Schema.B8 "7.18.5.1500"
+= MetaData.Schema.EG1.UId "d8fa083f-3b26-4cdf-8335-d3dedcb92903"
+= MetaData.Schema.EG1.A2 "Entity_1b6cfb3EventsProcess"
+= MetaData.Schema.EG1.A5 "070ec454-1e34-44d7-abf4-442e6a774a02"
+- MetaData.Schema.EG1.B1.["fe742d1c-4346-4cc5-894e-217df991856c"].C2
++ MetaData.Schema.EG1.B8 "7.18.5.1500"
+= MetaData.Schema.EG1.BK8 "66f58f21-6ed1-4e29-b506-6b9f6426d463"
+= MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
++ MetaData.Schema.EG1.BK3.["079c1a2b-96d1-4935-9764-180b73ed11ac"].BM4.["6a2146bb-1688-4388-9946-29409f61d0fb"].IL2 "079c1a2b-96d1-4935-9764-180b73ed11ac"
+- MetaData.Schema.EG1.BK3.["079c1a2b-96d1-4935-9764-180b73ed11ac"].BM4.["6a2146bb-1688-4388-9946-29409f61d0fb"].BL4
+- MetaData.Schema.EG1.BK3.["079c1a2b-96d1-4935-9764-180b73ed11ac"].BM4.["6a2146bb-1688-4388-9946-29409f61d0fb"].BL9
+- MetaData.Schema.EG1.BK3.["079c1a2b-96d1-4935-9764-180b73ed11ac"].BL9
+= MetaData.Schema.EG1.BK4.["08594d74-60b0-45ce-bf17-bac1a8b127f7"].CK2.["496d4a3c-b644-4a65-b0ed-2534d9236da5"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["90027ac8-c9c3-4d21-a4f9-da1cde752cd1"].CK2.["d8b8410f-5c8a-4ddc-8fc2-353483452aed"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["5f3bfbbe-1820-44ca-92f1-6f993169b2dd"].CK2.["d7c806b7-a29b-4ce5-9167-b3319472e772"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["dbf48103-dcf6-4f53-a052-d727a95ea0b4"].CK2.["933bf2fc-d052-40c8-a3e0-bf60049da5d8"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["f0646c74-f291-474f-9a10-143ee868f1c9"].CK2.["b3d5b61f-7afe-48b5-a8cc-40317ea9c428"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["8140d7e7-fb91-4999-8347-543345440efb"].CK2.["c803a450-c8dc-47a4-b704-7125c23db317"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
++ MetaData.Schema.EG1.Labels []
++ MetaData.Schema.D29 "null"
++ MetaData.Schema.D30 "null"
++ MetaData.Schema.D31 "null"
++ MetaData.Schema.D4 "aeb17692-af56-b82c-f705-807c3c677acc"
+- MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16
+- MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16
+- MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16
+- MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16
+- MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16
+- MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16
++ MetaData.Schema.D2 {
+  "UId": "e06b9bea-7c94-deb8-cb85-387bb0b3ffe9",
+  "A2": "TotalCountSell",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "24296c13-6026-0da6-7ae4-78f5073143af",
+  "A2": "TotalCountBuy",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "317bbd74-c2b9-4d62-0ba5-fdec442abe0d",
+  "A2": "Symbol",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac"
+}
++ MetaData.Schema.D2 {
+  "UId": "3c9b2478-2fd1-e9ae-748c-3ec34e2b4fc8",
+  "A2": "Priority",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
++ MetaData.Schema.D2 {
+  "UId": "2f375e87-bb18-9e23-4a8b-a68dfcabb7b2",
+  "A2": "PossibleX",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "ff22e049-4d16-46ee-a529-92d8808932dc"
+}
++ MetaData.Schema.D2 {
+  "UId": "788879f6-e845-10ce-5539-8a554262e9ef",
+  "A2": "PlaceInRanking",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
++ MetaData.Schema.D2 {
+  "UId": "eff26c40-814f-ac69-cce6-278074c81fad",
+  "A2": "PlaceInPortfolio",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
++ MetaData.Schema.D2 {
+  "UId": "15591428-93ca-53d7-f6d7-6ce154f2ffb6",
+  "A2": "PercentageDifference",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "879a86ca-8c7a-1ca4-4281-fca0b79aa4db",
+  "A2": "Notes",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+}
++ MetaData.Schema.D2 {
+  "UId": "aeb17692-af56-b82c-f705-807c3c677acc",
+  "A2": "Name",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac"
+}
++ MetaData.Schema.D2 {
+  "UId": "29406d3c-7a05-6159-4f99-c78645b45b95",
+  "A2": "InvestedUsdt",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "5a221f9a-9e94-58d6-af52-b393e427aa21",
+  "A2": "InvestedRub",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "e9e9335b-373c-6fc0-9149-a32d61f08cd2",
+  "A2": "InvestedPercent",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "666286ed-0a52-4727-5a40-914be66e9b61",
+  "A2": "SellVolume",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "5a172018-ecf9-11de-f6da-9dc6543a696a",
+  "A2": "BuyVolume",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "5772d45d-21b0-7e0e-5494-06cffceee9fc",
+  "A2": "CurrentRate",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "7127113e-0c88-24a8-9875-d00e82dd423c",
+  "A2": "Code",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac"
+}
++ MetaData.Schema.D2 {
+  "UId": "415e99b3-fc61-26f5-be52-3fd81e0741b3",
+  "A2": "AverageSellPrice",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "f519706c-f15d-e8c6-bf6d-f1f64eef3174",
+  "A2": "AveragePurchasePrice",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "7e7cb90a-1bd4-9e4b-175e-e3bd11a98bf8",
+  "A2": "AverageFixationPrice",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "f48ed67f-d8ab-12bd-b246-4e46659492d3",
+  "A2": "AverageBuyPrice",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "cdfd95e1-0826-72aa-5e6a-2fa038b4dd4d",
+  "A2": "ActualCount",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "a4aaf398-3531-4a0d-9d75-a587f5b5b59e"
+}
++ MetaData.Schema.D2 {
+  "UId": "fc6cd672-4711-1285-d8d1-27de3859e41d",
+  "A2": "Blogger",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "78fd3ada-c2be-480b-bea0-beff12dc779c",
+  "E6": true,
+  "E17": "BloggerId",
+  "E18": "BloggerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "5dac1449-5501-739f-a996-5672b8fa15e4",
+  "A2": "TypeOfCryptocurrency",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "a4c300ca-eaa9-41fd-a8cf-c3463f4f3d93",
+  "E6": true,
+  "E17": "TypeOfCryptocurrencyId",
+  "E18": "TypeOfCryptocurrencyName"
+}
++ MetaData.Schema.D2 {
+  "UId": "dbbce982-ed04-a2b8-174e-404c36298984",
+  "A2": "PortfolioType",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "0483aed0-86cb-40cb-b984-13dfdcbe3e12",
+  "E6": true,
+  "E17": "PortfolioTypeId",
+  "E18": "PortfolioTypeName"
+}
++ MetaData.Schema.D2 {
+  "UId": "db7b8cb3-273f-c829-b1e1-07123ae2586a",
+  "A2": "Platform",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "5035ee93-292f-404e-be64-d3a789dcdbe6",
+  "E6": true,
+  "E17": "PlatformId",
+  "E18": "PlatformName"
+}
++ MetaData.Schema.D2 {
+  "UId": "10594a91-2985-b601-fed3-9d899368cf78",
+  "A2": "Ecosystem",
+  "A3": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A4": "a9a35fca-6aa5-4009-8e7e-0323c39e138d",
+  "A5": "070ec454-1e34-44d7-abf4-442e6a774a02",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "2e1f0457-c294-4838-bfbf-331a9c986b37",
+  "E6": true,
+  "E17": "EcosystemId",
+  "E18": "EcosystemName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","e06b9bea-7c94-deb8-cb85-387bb0b3ffe9","24296c13-6026-0da6-7ae4-78f5073143af","317bbd74-c2b9-4d62-0ba5-fdec442abe0d","3c9b2478-2fd1-e9ae-748c-3ec34e2b4fc8","2f375e87-bb18-9e23-4a8b-a68dfcabb7b2","788879f6-e845-10ce-5539-8a554262e9ef","eff26c40-814f-ac69-cce6-278074c81fad","15591428-93ca-53d7-f6d7-6ce154f2ffb6","879a86ca-8c7a-1ca4-4281-fca0b79aa4db","aeb17692-af56-b82c-f705-807c3c677acc","29406d3c-7a05-6159-4f99-c78645b45b95","5a221f9a-9e94-58d6-af52-b393e427aa21","e9e9335b-373c-6fc0-9149-a32d61f08cd2","666286ed-0a52-4727-5a40-914be66e9b61","5a172018-ecf9-11de-f6da-9dc6543a696a","5772d45d-21b0-7e0e-5494-06cffceee9fc","7127113e-0c88-24a8-9875-d00e82dd423c","415e99b3-fc61-26f5-be52-3fd81e0741b3","f519706c-f15d-e8c6-bf6d-f1f64eef3174","7e7cb90a-1bd4-9e4b-175e-e3bd11a98bf8","f48ed67f-d8ab-12bd-b246-4e46659492d3","cdfd95e1-0826-72aa-5e6a-2fa038b4dd4d","fc6cd672-4711-1285-d8d1-27de3859e41d","5dac1449-5501-739f-a996-5672b8fa15e4","dbbce982-ed04-a2b8-174e-404c36298984","db7b8cb3-273f-c829-b1e1-07123ae2586a","10594a91-2985-b601-fed3-9d899368cf78"]
+= MetaData.Schema.D20.A2 "PortfolioEvents"
+- MetaData.Schema.EG1.BK29
+- MetaData.Schema.EG1.BK30
+- MetaData.Schema.D1
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA15
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false

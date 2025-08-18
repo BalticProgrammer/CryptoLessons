@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "0483aed0-86cb-40cb-b984-13dfdcbe3e12",
+    "Name": "PortfolioType",
+    "ModifiedOnUtc": "\/Date(1755524428000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тип портфеля"
+  }
+}

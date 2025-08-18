@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "78fd3ada-c2be-480b-bea0-beff12dc779c",
+    "Name": "Blogger",
+    "ModifiedOnUtc": "\/Date(1755511239000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Блоггер"
+  }
+}

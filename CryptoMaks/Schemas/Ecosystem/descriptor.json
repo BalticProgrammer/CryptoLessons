@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2e1f0457-c294-4838-bfbf-331a9c986b37",
+    "Name": "Ecosystem",
+    "ModifiedOnUtc": "\/Date(1755524126000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Экосистема"
+  }
+}
