@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "090bfa72-4044-44a7-9ca4-61e551bec934",
+    "Name": "CalculatePercentInvestingCrypto",
+    "ModifiedOnUtc": "\/Date(1755626032000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Посчитать процент от вложений по криптовалютной паре"
+  }
+}

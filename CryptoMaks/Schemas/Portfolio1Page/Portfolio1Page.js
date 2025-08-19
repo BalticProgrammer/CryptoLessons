@@ -19,105 +19,20 @@ define("Portfolio1Page", [], function() {
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "PlaceInRanking08c8952a-79fc-4041-9569-e94274ba454c",
+				"name": "Code0be9d014-86b3-40a1-8892-991698ed3a35",
 				"values": {
 					"layout": {
 						"colSpan": 6,
 						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
+						"column": 9,
+						"row": 0,
 						"layoutName": "Header"
 					},
-					"bindTo": "PlaceInRanking"
+					"bindTo": "Code"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "Priority3c3ec84e-d41b-40fd-b729-ecdaf78eafd5",
-				"values": {
-					"layout": {
-						"colSpan": 8,
-						"rowSpan": 1,
-						"column": 16,
-						"row": 1,
-						"layoutName": "Header"
-					},
-					"bindTo": "Priority"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "PossibleXa804ccbc-5379-4154-902d-71f387d2f0e8",
-				"values": {
-					"layout": {
-						"colSpan": 8,
-						"rowSpan": 1,
-						"column": 16,
-						"row": 4,
-						"layoutName": "Header"
-					},
-					"bindTo": "PossibleX"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "InvestedUsdt670d9020-2131-413b-8e8c-f86a8f5d1f82",
-				"values": {
-					"layout": {
-						"colSpan": 11,
-						"rowSpan": 1,
-						"column": 13,
-						"row": 8,
-						"layoutName": "Header"
-					},
-					"bindTo": "InvestedUsdt"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "InvestedPercent91a84472-e9b0-40c4-bdad-1da0b53b6d62",
-				"values": {
-					"layout": {
-						"colSpan": 11,
-						"rowSpan": 1,
-						"column": 13,
-						"row": 7,
-						"layoutName": "Header"
-					},
-					"bindTo": "InvestedPercent"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "PercentageDifference4fd6de88-2991-4513-a4bf-91189a86c31f",
-				"values": {
-					"layout": {
-						"colSpan": 8,
-						"rowSpan": 1,
-						"column": 16,
-						"row": 3,
-						"layoutName": "Header"
-					},
-					"bindTo": "PercentageDifference"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -134,7 +49,7 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 6
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -148,6 +63,91 @@ define("Portfolio1Page", [], function() {
 						"layoutName": "Header"
 					},
 					"bindTo": "Symbol"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "PlaceInRanking08c8952a-79fc-4041-9569-e94274ba454c",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 1,
+						"layoutName": "Header"
+					},
+					"bindTo": "PlaceInRanking"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "PlaceInPortfolioa2451129-d1be-4a38-9178-9fc7a90e8c26",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 7,
+						"row": 1,
+						"layoutName": "Header"
+					},
+					"bindTo": "PlaceInPortfolio"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Priority3c3ec84e-d41b-40fd-b729-ecdaf78eafd5",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 16,
+						"row": 1,
+						"layoutName": "Header"
+					},
+					"bindTo": "Priority"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "ActualCount3720fd08-21fc-47b7-991b-2297451e0397",
+				"values": {
+					"layout": {
+						"colSpan": 9,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 2,
+						"layoutName": "Header"
+					},
+					"bindTo": "ActualCount"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "CurrentRate031face2-a367-4841-a1cd-b886cac8a138",
+				"values": {
+					"layout": {
+						"colSpan": 10,
+						"rowSpan": 1,
+						"column": 14,
+						"row": 2,
+						"layoutName": "Header"
+					},
+					"bindTo": "CurrentRate"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -172,16 +172,16 @@ define("Portfolio1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "CurrentRate031face2-a367-4841-a1cd-b886cac8a138",
+				"name": "TotalCountBuy8bfd6376-8ec6-45b2-9909-e771d7efa3ac",
 				"values": {
 					"layout": {
-						"colSpan": 10,
+						"colSpan": 8,
 						"rowSpan": 1,
-						"column": 14,
-						"row": 2,
+						"column": 7,
+						"row": 3,
 						"layoutName": "Header"
 					},
-					"bindTo": "CurrentRate"
+					"bindTo": "TotalCountBuy"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -189,54 +189,20 @@ define("Portfolio1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Code0be9d014-86b3-40a1-8892-991698ed3a35",
-				"values": {
-					"layout": {
-						"colSpan": 6,
-						"rowSpan": 1,
-						"column": 9,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "Code"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 10
-			},
-			{
-				"operation": "insert",
-				"name": "PlaceInPortfolioa2451129-d1be-4a38-9178-9fc7a90e8c26",
+				"name": "PercentageDifference4fd6de88-2991-4513-a4bf-91189a86c31f",
 				"values": {
 					"layout": {
 						"colSpan": 8,
 						"rowSpan": 1,
-						"column": 7,
-						"row": 1,
+						"column": 16,
+						"row": 3,
 						"layoutName": "Header"
 					},
-					"bindTo": "PlaceInPortfolio"
+					"bindTo": "PercentageDifference"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 11
-			},
-			{
-				"operation": "insert",
-				"name": "ActualCount3720fd08-21fc-47b7-991b-2297451e0397",
-				"values": {
-					"layout": {
-						"colSpan": 9,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 2,
-						"layoutName": "Header"
-					},
-					"bindTo": "ActualCount"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 12
+				"index": 10
 			},
 			{
 				"operation": "insert",
@@ -253,24 +219,7 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 13
-			},
-			{
-				"operation": "insert",
-				"name": "TotalCountBuy8bfd6376-8ec6-45b2-9909-e771d7efa3ac",
-				"values": {
-					"layout": {
-						"colSpan": 8,
-						"rowSpan": 1,
-						"column": 7,
-						"row": 3,
-						"layoutName": "Header"
-					},
-					"bindTo": "TotalCountBuy"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 14
+				"index": 11
 			},
 			{
 				"operation": "insert",
@@ -287,7 +236,24 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 15
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "PossibleXa804ccbc-5379-4154-902d-71f387d2f0e8",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 16,
+						"row": 4,
+						"layoutName": "Header"
+					},
+					"bindTo": "PossibleX"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 13
 			},
 			{
 				"operation": "insert",
@@ -304,7 +270,7 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 16
+				"index": 14
 			},
 			{
 				"operation": "insert",
@@ -321,7 +287,7 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 17
+				"index": 15
 			},
 			{
 				"operation": "insert",
@@ -338,24 +304,7 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 18
-			},
-			{
-				"operation": "insert",
-				"name": "InvestedRub1e32800f-fa3e-46a4-abe9-82739ba34e53",
-				"values": {
-					"layout": {
-						"colSpan": 11,
-						"rowSpan": 1,
-						"column": 13,
-						"row": 9,
-						"layoutName": "Header"
-					},
-					"bindTo": "InvestedRub"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 19
+				"index": 16
 			},
 			{
 				"operation": "insert",
@@ -372,7 +321,7 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 20
+				"index": 17
 			},
 			{
 				"operation": "insert",
@@ -389,7 +338,24 @@ define("Portfolio1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 21
+				"index": 18
+			},
+			{
+				"operation": "insert",
+				"name": "InvestedPercent91a84472-e9b0-40c4-bdad-1da0b53b6d62",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 7,
+						"layoutName": "Header"
+					},
+					"bindTo": "InvestedPercent"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 19
 			},
 			{
 				"operation": "insert",
@@ -403,6 +369,40 @@ define("Portfolio1Page", [], function() {
 						"layoutName": "Header"
 					},
 					"bindTo": "AverageFixationPrice"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 20
+			},
+			{
+				"operation": "insert",
+				"name": "InvestedUsdt670d9020-2131-413b-8e8c-f86a8f5d1f82",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 8,
+						"layoutName": "Header"
+					},
+					"bindTo": "InvestedUsdt"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 21
+			},
+			{
+				"operation": "insert",
+				"name": "InvestedRub1e32800f-fa3e-46a4-abe9-82739ba34e53",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 9,
+						"layoutName": "Header"
+					},
+					"bindTo": "InvestedRub"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
