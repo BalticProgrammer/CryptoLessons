@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "025ab247-7549-4a5e-8822-e9a1c8351b6a",
+    "Name": "PortfolioSection",
+    "ModifiedOnUtc": "\/Date(1755703510000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Портфель\""
+  }
+}

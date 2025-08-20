@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3a27ff9b-f474-4b7f-95ef-2e44d9ddc337",
+    "Name": "PortfolioTag",
+    "ModifiedOnUtc": "\/Date(1755702575000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Портфель"
+  }
+}

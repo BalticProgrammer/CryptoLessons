@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2cc56a75-7082-46cb-98eb-564e404512f1",
+    "Name": "Portfolio1Page",
+    "ModifiedOnUtc": "\/Date(1755703406000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Портфель\""
+  }
+}
