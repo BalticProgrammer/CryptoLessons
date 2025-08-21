@@ -4,8 +4,24 @@
 		<Items>
 			<Item Name="Caption" Value="Object" />
 			<Item Name="Columns.ActualCount.Caption" Value="Актуальное количество" />
+			<Item Name="Columns.AverageBuyPrice.Caption" Value="Средняя покупки USDT" />
+			<Item Name="Columns.AverageFixationPrice.Caption" Value="Средня покупки с фиксациями" />
+			<Item Name="Columns.AverageSellPrice.Caption" Value="Средняя продажи USDT" />
+			<Item Name="Columns.Code.Caption" Value="Код" />
+			<Item Name="Columns.CurrentRate.Caption" Value="Текущий курс (USDT)" />
+			<Item Name="Columns.InvestedPercent.Caption" Value="Вложенное %" />
+			<Item Name="Columns.InvestedRub.Caption" Value="Вложено RUB" />
+			<Item Name="Columns.InvestedUsdt.Caption" Value="Вложено USDT" />
 			<Item Name="Columns.Name.Caption" Value="Название" />
 			<Item Name="Columns.Notes.Caption" Value="Заметки" />
+			<Item Name="Columns.PercentageDifference.Caption" Value="Разница %" />
+			<Item Name="Columns.PossibleX.Caption" Value="Возможные иксы" />
+			<Item Name="Columns.Priority.Caption" Value="Приоритет" />
+			<Item Name="Columns.SalesVolumeUSDT.Caption" Value="Объём продажи (USDT)" />
+			<Item Name="Columns.Symbol.Caption" Value="Символ" />
+			<Item Name="Columns.TotalCountBuy.Caption" Value="Объем покупки" />
+			<Item Name="Columns.TotalCountSell.Caption" Value="Объём продажи" />
+			<Item Name="Columns.VolumeOfPurchasesUSDT.Caption" Value="Объём покупки (USDT)" />
 			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
 		</Items>
 	</Group>

@@ -1,8 +1,8 @@
 ﻿{
   "Descriptor": {
-    "UId": "7a57560c-d338-47c4-be75-ba8b3831e8ea",
-    "Name": "SysModuleEdit_SysModuleEditManager_2bc5098d50f64cf785a752f4bfdcd8c0",
-    "ModifiedOnUtc": "\/Date(1755780374000)\/",
+    "UId": "fa6e32da-88bc-42c8-9c42-be7a183c0d77",
+    "Name": "SysModuleEditManager_Portfolio1Page",
+    "ModifiedOnUtc": "\/Date(1755774857000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "24666f2d-049f-4867-ae2c-db681c40c001",

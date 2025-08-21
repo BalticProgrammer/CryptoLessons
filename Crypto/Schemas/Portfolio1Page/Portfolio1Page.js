@@ -53,6 +53,23 @@ define("Portfolio1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "InvestedPercentf51a35fb-30f4-40aa-bb22-5fc05751ea07",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 2,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "InvestedPercent"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "NotesAndFilesTab",
 				"values": {
 					"caption": {
