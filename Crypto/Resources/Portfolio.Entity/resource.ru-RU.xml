@@ -6,6 +6,7 @@
 			<Item Name="Columns.ActualCount.Caption" Value="Актуальное количество" />
 			<Item Name="Columns.AverageBuyPrice.Caption" Value="Средняя покупки USDT" />
 			<Item Name="Columns.AverageFixationPrice.Caption" Value="Средня покупки с фиксациями" />
+			<Item Name="Columns.AveragePurchasePrice.Caption" Value="Средняя (П/П) USDT" />
 			<Item Name="Columns.AverageSellPrice.Caption" Value="Средняя продажи USDT" />
 			<Item Name="Columns.Code.Caption" Value="Код" />
 			<Item Name="Columns.CurrentRate.Caption" Value="Текущий курс (USDT)" />
