@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d5f15c58-2bb7-4048-bb1d-0db64bce425b",
+    "Name": "CryptoExchangeInFolder",
+    "ModifiedOnUtc": "\/Date(1785518760000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Криптобиржа в группе"
+  }
+}

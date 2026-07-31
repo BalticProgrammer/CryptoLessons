@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "77f2673d-a27d-433a-bfe7-2afa5246fc08",
+    "Name": "CryptoExchangeFile",
+    "ModifiedOnUtc": "\/Date(1785518743000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Криптобиржа"
+  }
+}

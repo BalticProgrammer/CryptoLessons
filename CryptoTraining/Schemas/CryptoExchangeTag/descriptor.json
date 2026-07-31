@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "6ce138cb-21d7-4d1b-80b8-471cd2e054d5",
+    "Name": "CryptoExchangeTag",
+    "ModifiedOnUtc": "\/Date(1785518768000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Криптобиржа"
+  }
+}

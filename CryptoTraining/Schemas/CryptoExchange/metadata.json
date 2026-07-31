@@ -25,6 +25,7 @@
 + MetaData.Schema.D29 "null"
 + MetaData.Schema.D30 "null"
 + MetaData.Schema.D31 "null"
++ MetaData.Schema.D4 "7bb05c75-1c03-fc5b-4001-f6f689b726ba"
 - MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16
 - MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16
 - MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16
@@ -80,7 +81,11 @@
   "A3": "98b6f0c7-1bdc-4328-ba46-eff1ebb70b6e",
   "A4": "98b6f0c7-1bdc-4328-ba46-eff1ebb70b6e",
   "A5": "1ca529dd-935b-4c75-8ce2-88e5bbd55b35",
-  "S2": "90b65bf8-0ffc-4141-8779-2420877af907"
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907",
+  "E12": {
+    "FB1": 1,
+    "FB2": "True"
+  }
 }
 + MetaData.Schema.D2 {
   "UId": "75e27117-8bff-3a93-a54b-258939b74209",
