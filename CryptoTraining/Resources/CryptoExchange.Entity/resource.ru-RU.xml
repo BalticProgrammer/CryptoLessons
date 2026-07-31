@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Криптобиржа" />
+			<Item Name="Columns.Code.Caption" Value="Код" />
+			<Item Name="Columns.Country.Caption" Value="Страна" />
+			<Item Name="Columns.Description.Caption" Value="Описание" />
+			<Item Name="Columns.IsActive.Caption" Value="Активна" />
+			<Item Name="Columns.Name.Caption" Value="Название" />
+			<Item Name="Columns.Rating.Caption" Value="Рейтинг" />
+			<Item Name="Columns.StartDate.Caption" Value="Дата начала работы" />
+			<Item Name="Columns.Website.Caption" Value="Официальный сайт" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

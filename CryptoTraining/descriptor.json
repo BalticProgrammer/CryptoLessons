@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e8c79b3b-a4be-0616-f1b4-5b86a61af329",
+    "Name": "CryptoTraining",
+    "ModifiedOnUtc": "\/Date(1785490377000)\/",
+    "Maintainer": "Crypto",
+    "DependsOn": [
+      {
+        "UId": "9900091f-b330-6cfd-d7fb-b84add6925c1",
+        "Name": "Crypto"
+      }
+    ]
+  }
+}

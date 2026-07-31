@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "98b6f0c7-1bdc-4328-ba46-eff1ebb70b6e",
+    "Name": "CryptoExchange",
+    "ModifiedOnUtc": "\/Date(1785516223000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Криптобиржа"
+  }
+}
